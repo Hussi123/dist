@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230315005701">
+    <link rel="stylesheet" href="css/ques.css">
+    <title>Займы онлайн</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__container">
+                    <div class="header-logo">
+                        <a href="#" class="header-logo__link">
+                            <img src="img/icons/icons.svg#logo" alt="logo">
+                            <div>Займы Онлайн</div>
+                        </a>
+                    </div>
+                    <div class="header__line"></div>
+                    <div class="header__currencies">
+                        <div class="header__currency currency">
+                            <div class="currency__name"><span>USD</span> ЦБ</div>
+                            <div id="rate__usd" class="currency__rate">62.91</div>
+                        </div>
+                        <div class="header__currency currency">
+                            <div class="currency__name"><span>EUR</span> ЦБ</div>
+                            <div id="rate__eur" class="currency__rate">64.32</div>
+                        </div>
+                        <div class="header__currency currency">
+                            <div class="currency__name"><span>CNY</span> ЦБ</div>
+                            <div id="rate__cny" class="currency__rate">9.55</div>
+                        </div>
+                    </div>
+
+                    <form class="header__search" action="#" method="get">
+                        <input type="search" class="header__search-input" placeholder="Поиск по сайту">
+                        <a href="#" class="header__search-link"> <img src="img/icons/icons.svg#search" alt="search"></a>
+                    </form>
+
+                    <div class="header__content">
+                        <nav class="header__buttons">
+                            <div class="header__button button-green">
+                                <a data-goto=".section-cards" href="#" class="header__link button-green__link">
+                                    <span>Спросить эксперта</span>
+                                </a>
+                            </div>
+                            <div class="header__button header__button-blue">
+                                <a href="#" class="header__link button-blue-header button-blue__link">
+                                    <svg>
+                                        <use href="img/icons/icons-mono.svg#add"></use>
+                                    </svg>
+                                    <span class="button-blue__title">(3)</span>
+                                </a>
+                            </div>
+
+                        </nav>
+
+                    </div>
+                    <div class="header__more more">
+
+                        <svg>
+                            <use href="img/icons/icons-mono.svg#more"></use>
+                        </svg>
+                        <div class="more__content">
+                            <nav class="more__buttons">
+                                <div class="more__button">
+                                    <a href="#" class="button-more">
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#login"></use>
+                                        </svg>
+                                        <span>Войти</span>
+                                    </a>
+                                </div>
+                                <div class="more__button">
+                                    <a href="#" class="button-more">
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#authorize"></use>
+                                        </svg>
+                                        <span>Зарегистрироваться</span>
+                                    </a>
+                                </div>
+
+                                <div class="more__button">
+                                    <a href="#" class="button-more">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#finews"></use>
+                                        </svg>
+                                        <span>Финансовые новости</span>
+                                    </a>
+                                </div>
+                                <div class="more__button">
+                                    <a href="#" class="button-more">
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#journal"></use>
+                                        </svg>
+                                        <span>Финансовый журнал</span>
+                                    </a>
+                                </div>
+                                <div class="more__button">
+                                    <a href="#" class="button-more">
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#contacts"></use>
+                                        </svg>
+                                        <span>Контакты</span>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__menu">
+                <div class="container">
+                    <ul class="menu" id="menu">
+                        <li>
+                            <a href="#" class="menu__link">
+                                <span>Займы Онлайн</span>
+                                <img src="img/icons/icons.svg#arrow" alt="arrow">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__link">
+                                <span>Займы на карту</span>
+                                <img src="img/icons/icons.svg#arrow" alt="arrow">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__link">
+                                <span>Список МФО</span>
+                                <img src="img/icons/icons.svg#arrow" alt="arrow">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__link">
+                                <span>Способы займа</span>
+                                <img src="img/icons/icons.svg#arrow" alt="arrow">
+                            </a>
+                            <ul class="menu__sublist">
+                                <li>
+                                    <a href="#" class="menu__sublink">
+                                        <span>На Qiwi</span>
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#arrow"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu__sublink">
+                                        <span>Наличными</span>
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#arrow"></use>
+                                        </svg>
+                                    </a>
+                                    <ul class="menu__sub-sublist">
+                                        <li>
+                                            <a href="#" class="menu__sub-sublink">Онлайн</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu__sub-sublink">Срочно</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu__sub-sublink">По паспорту</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu__sub-sublink">Без отказа</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu__sub-sublink">С плохой кредитной
+                                                историей</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu__sub-sublink">Без проверки</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu__sublink">
+                                        <span>Займы через Contact</span>
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#arrow"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu__sublink">
+                                        <span>На банковский счет</span>
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#arrow"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu__sublink">
+                                        <span>На Яндекс Деньги</span>
+                                        <svg>
+                                            <use href="img/icons/icons-mono.svg#arrow"></use>
+                                        </svg>
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__link">
+                                <span>Услуги банков</span>
+                                <img src="img/icons/icons.svg#arrow" alt="arrow">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__link">
+                                <span>Микрозаймы</span>
+                                <img src="img/icons/icons.svg#arrow" alt="arrow">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__link">
+                                <span>Микрокредиты</span>
+                                <img src="img/icons/icons.svg#arrow" alt="arrow">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__link">
+                                <span>Деньги в долг</span>
+                                <img src="img/icons/icons.svg#arrow" alt="arrow">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="main__header header-main">
+                <div class="container">
+                    <ul class="header-main__breadcrumb">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#">Займ в Займере (0% первый займ)</a></li>
+                    </ul>
+                    <h1 class="header-main__title">Займ в Займере (0% первый займ)</h1>
+                </div>
+            </section>
+            <div class="breadcrumb_block">
+                <div class="container">
+                    <div class="breadcrumb">
+                        <div class="item_first">
+                            <p> <span>Главная -</span> Вопросы </p>
+                        </div>
+                        <div class="title_braed">
+                            <div class="title_item">
+                                <img src="img/quec_icon.svg" alt="">
+                                <h2>Вопросы и ответы</h2>
+                            </div>
+                            <h3>Финансовый портал, где эксперты готовы бесплатно ответить на ваши финансовые вопросы
+                            </h3>
+                            <a href="#">Спросить у экспертов</a>
+                        </div>
+                        <div class="questions_bottom">
+                            <div class="item_ques">
+                                <img src="img/speed 1.svg" alt="">
+                                <p>быстрые ответы</p>
+                            </div>
+                            <div class="item_ques">
+                                <img src="img/support 1.svg" alt="">
+                                <p>2 эксперта по кредитам и финансам</p>
+                            </div>
+                            <div class="item_ques">
+                                <img src="img/commentsicon 1.svg" alt="">
+                                <p>15 вопросов с ответами</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top_questions">
+                <div class="container">
+                    <div class="top_questions_title">
+                        <img src="img/top 1.svg" alt="">
+                        <h2>Топ вопросы</h2>
+                    </div>
+                    <div class="top_block_wrapper">
+                        <div class="top_questions_block">
+                            <div class="top_questions_top">
+                                <div class="img_block">
+                                    <img src="img/ques1.png" alt="">
+                                </div>
+                                <div class="title_ques_item">
+                                    <h3>Кому теперь МФО будут
+                                        одобрять займ и кому
+                                        отказывать?!</h3>
+                                    <div class="block_view">
+                                        <div class="item_view">
+                                            <img src="img/calendar_outline_28 @ event.svg" alt="">
+                                            <p>07.05.2021</p>
+                                        </div>
+                                        <div class="item_view">
+                                            <img src="img/view_outline_28.svg">
+                                            <p>18 372</p>
+                                        </div>
+                                        <div class="item_view">
+                                            <img src="img/comments_count.svg" alt="">
+                                            <p>260</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top_questions_top">
+                                <div class="img_block">
+                                    <img src="img/ques1.png" alt="">
+                                </div>
+                                <div class="title_ques_item">
+                                    <h3>С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов</h3>
+                                    <div class="block_view">
+                                        <div class="item_view">
+                                            <img src="img/calendar_outline_28 @ event.svg" alt="">
+                                            <p>07.05.2021</p>
+                                        </div>
+                                        <div class="item_view">
+                                            <img src="img/view_outline_28.svg">
+                                            <p>18 372</p>
+                                        </div>
+                                        <div class="item_view">
+                                            <img src="img/comments_count.svg" alt="">
+                                            <p>260</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top_questions_top">
+                                <div class="img_block">
+                                    <img src="img/ques1.png" alt="">
+                                </div>
+                                <div class="title_ques_item">
+                                    <h3>Россияне установили новый
+                                        рекорд просроченной задолжен-
+                                        ности по кредитным картам</h3>
+                                    <div class="block_view">
+                                        <div class="item_view">
+                                            <img src="img/calendar_outline_28 @ event.svg" alt="">
+                                            <p>07.05.2021</p>
+                                        </div>
+                                        <div class="item_view">
+                                            <img src="img/view_outline_28.svg">
+                                            <p>18 372</p>
+                                        </div>
+                                        <div class="item_view">
+                                            <img src="img/comments_count.svg" alt="">
+                                            <p>260</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top_questions_top">
+                                <div class="img_block">
+                                    <img src="img/ques1.png" alt="">
+                                </div>
+                                <div class="title_ques_item">
+                                    <h3>С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов</h3>
+                                    <div class="block_view">
+                                        <div class="item_view">
+                                            <img src="img/calendar_outline_28 @ event.svg" alt="">
+                                            <p>07.05.2021</p>
+                                        </div>
+                                        <div class="item_view">
+                                            <img src="img/view_outline_28.svg">
+                                            <p>18 372</p>
+                                        </div>
+                                        <div class="item_view">
+                                            <img src="img/comments_count.svg" alt="">
+                                            <p>260</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <section id="question__feed">
+                <div class="container">
+                    <div class="question__feed_left">
+                        <div class="left__head">
+                            <h1>Лента вопросов</h1>
+                            <div class="head__search">
+                                <input type="text" placeholder="Поиск ответа">
+                                <button class="search__icon">
+                                    <img src="./img/icons/search.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="head__accordion">
+                                <button>
+                                    <span>По-умолчанию</span>
+                                    <img src="./img/icons/accordion_icon.svg" alt="">
+                                </button>
+                                <div class="accordion__item">
+                                    <a href="">Популярные</a>
+                                    <a href="#">Новые</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qestion__cards">
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question_card">
+                                <div class="card_head">
+                                    <img src="./img/quest_2.png" alt="">
+                                </div>
+                                <div class="card_body">
+                                    <div class="title">
+                                        С 1 июля ЦБ РФ вернет докри-
+                                        зисные требования для выдачи
+                                        потребительских кредитов
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="time">
+                                            <img src="./img/calendar_outline_28 @ event.svg" alt="">
+                                            <span>05.05.2021</span>
+                                        </div>
+                                        <div class="view">
+                                            <img src="./img/view_outline_28.svg" alt="">
+                                            <span>18 372</span>
+                                        </div>
+                                        <div class="comment">
+                                            <img src="./img/comments_count.svg" alt="">
+                                            <span>260</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="more">
+                            <span>Показать еще</span>
+                            <img src="./img/icons/accordion_icon.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="question__feed_right">
+                        <a href="#" class="link__active">Темы вопросов</a>
+                        <a href="#">Займы</a>
+                        <a href="#">Кредиты</a>
+                        <a href="#">Кредитные карты</a>
+                        <a href="#">Банки</a>
+                        <a href="#">Вклады</a>
+                        <a href="#">Ипотека</a>
+                        <a href="#">Рефинансирование</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Form start -->
+            <section class="form-content">
+                <div class="container">
+                    <div class="form__content-wrap">
+                        <div class="form-tabs form-tabs1">
+                            <button class="form-tab active" data-tab-target="#login">Войти</button>
+                            <button class="form-tab" data-tab-target="#not-acc">Нет аккаунта?</button>
+                            <button class="form-tab" data-tab-target="#pass">Забыл пароль?</button>
+                        </div>
+
+                        <form>
+                            <div class="form-items form-items1">
+                                <div class="form-item active" id="login" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="email" placeholder="Логин (email)" required class="form-inp"> 
+                                            </div>
+                                            <input type="password" placeholder="Пароль" required class="form-inp">
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Авторизуйтесь на сайте, чтобы добавить вопрос.</p>
+                                            <p>Введите ваш email и пароль, если вы уже зарегис-трированы на сайте.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-item" id="not-acc" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp arrow-inp2">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="text" name="name" placeholder="Имя" required class="form-inp">
+                                            </div>
+                                            <input type="email" placeholder="Логин (email)" required class="form-inp"> 
+                                            <input type="password" placeholder="Пароль" required class="form-inp">
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Если у вас нет аккаунта, пройдите простую регистрацию.</p>
+                                            <p>Введите ваше имя, email и пароль, и зарегистри руйтесь.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-item" id="pass" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp arrow-inp3">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="email" placeholder="Логин (email)" required class="form-inp">
+                                            </div>
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Если у вас нет аккаунта, пройдите простую регистрацию.</p>
+                                            <p>Введите ваше имя, email и пароль, и зарегистри руйтесь.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="form__content-wrap">
+                        <div class="form-tabs form-tabs2">
+                            <button class="form-tab active" data-tab-target="#login2">Войти</button>
+                            <button class="form-tab" data-tab-target="#not-acc2">Нет аккаунта?</button>
+                            <button class="form-tab" data-tab-target="#pass2">Забыл пароль?</button>
+                        </div>
+                    
+                        <form>
+                            <div class="form-items form-items2">
+                                <div class="form-item active" id="login2" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="email" placeholder="Логин (email)" required class="form-inp">
+                                            </div>
+                                            <input type="password" placeholder="Пароль" required class="form-inp">
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Авторизуйтесь на сайте, чтобы добавить вопрос.</p>
+                                            <p>Введите ваш email и пароль, если вы уже зарегис-трированы на сайте.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="form-item" id="not-acc2" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp arrow-inp2">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="text" name="name" placeholder="Имя" required class="form-inp">
+                                            </div>
+                                            <input type="email" placeholder="Логин (email)" required class="form-inp">
+                                            <input type="password" placeholder="Пароль" required class="form-inp">
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Если у вас нет аккаунта, пройдите простую регистрацию.</p>
+                                            <p>Введите ваше имя, email и пароль, и зарегистри руйтесь.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="form-item" id="pass2" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp arrow-inp3">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="email" placeholder="Логин (email)" required class="form-inp">
+                                            </div>
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Если у вас нет аккаунта, пройдите простую регистрацию.</p>
+                                            <p>Введите ваше имя, email и пароль, и зарегистри руйтесь.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="form__content-wrap">
+                        <div class="form-tabs form-tabs3">
+                            <button class="form-tab active" data-tab-target="#login3">Войти</button>
+                            <button class="form-tab" data-tab-target="#not-acc3">Нет аккаунта?</button>
+                            <button class="form-tab" data-tab-target="#pass3">Забыл пароль?</button>
+                        </div>
+                    
+                        <form>
+                            <div class="form-items form-items3">
+                                <div class="form-item active" id="login3" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="email" placeholder="Логин (email)" required class="form-inp">
+                                            </div>
+                                            <input type="password" placeholder="Пароль" required class="form-inp">
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Авторизуйтесь на сайте, чтобы добавить вопрос.</p>
+                                            <p>Введите ваш email и пароль, если вы уже зарегис-трированы на сайте.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="form-item" id="not-acc3" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp arrow-inp2">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="text" name="name" placeholder="Имя" required class="form-inp">
+                                            </div>
+                                            <input type="email" placeholder="Логин (email)" required class="form-inp">
+                                            <input type="password" placeholder="Пароль" required class="form-inp">
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Если у вас нет аккаунта, пройдите простую регистрацию.</p>
+                                            <p>Введите ваше имя, email и пароль, и зарегистри руйтесь.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="form-item" id="pass3" data-tab-content>
+                                    <div class="form__inp-wrap">
+                                        <div class="form__inp-item">
+                                            <div class="arrow-inp arrow-inp3">
+                                                <img src="./img/icons/inp-arrow.svg" alt="">
+                                                <input type="email" placeholder="Логин (email)" required class="form-inp">
+                                            </div>
+                                            <button class="form-btn" type="submit">Войти на сайт</button>
+                                        </div>
+                                        <div class="form__text-wrap">
+                                            <p>Если у вас нет аккаунта, пройдите простую регистрацию.</p>
+                                            <p>Введите ваше имя, email и пароль, и зарегистри руйтесь.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- Form end -->
+
+            <section class="ask__expert">
+                <div class="container">
+                    <form class="content">
+                        <h1>Задать вопрос экспертам</h1>
+                        <div class="answer">
+                            <label for="">Заголовок вопроса <span>*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="detail">
+                            <label for="">Опишите подробнее <span>*</span></label>
+                            <textarea></textarea>
+                        </div>
+                        <select>
+                            <option value="" disabled hidden selected>Выбрать тему *</option>
+                            <option value="select1">select1</option>
+                            <option value="select2">select2</option>
+                            <option value="select3">select3</option>
+                            <option value="select4">select4</option>
+                            <option value="select5">select5</option>
+                            <option value="select6">select6</option>
+                        </select>
+
+                        <div class="submit">
+                            <div class="checkbox">
+                                <input type="checkbox" id="ask_checkbox">
+                                <label for="ask_checkbox">
+                                    Я согласен с <span> условиями обработки
+                                        персональных данных, указанных в
+                                        Политике конфиденциальности</span>
+                                </label>
+                            </div>
+                            <button type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <section class="our__expert">
+                <div class="container">
+                    <h1>Наши эксперты</h1>
+
+                    <div class="cards">
+                        <div class="card__item">
+                            <img src="./img/icons/expert.svg" alt="" class="left">
+                            <div class="right">
+                                <h2>Юрий Назаров</h2>
+                                <p>Финансовый эксперт / Zajmy-na-kartu-onlajn.ru
+                                    В проекте с 2017 года</p>
+                                <a href="mailto:yurij.nazarov@zajmy-na-kartu-onlajn.ru">
+                                    <img src="./img/icons/mail.svg" alt="">
+                                    <span>yurij.nazarov@zajmy-na-kartu-onlajn.rumail_outline_28</span>
+                                </a>
+                                <button>Подробнее об авторе</button>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <img src="./img/icons/expert.svg" alt="" class="left">
+                            <div class="right">
+                                <h2>Юрий Назаров</h2>
+                                <p>Финансовый эксперт / Zajmy-na-kartu-onlajn.ru
+                                    В проекте с 2017 года</p>
+                                <a href="mailto:yurij.nazarov@zajmy-na-kartu-onlajn.ru">
+                                    <img src="./img/icons/mail.svg" alt="">
+                                    <span>yurij.nazarov@zajmy-na-kartu-onlajn.rumail_outline_28</span>
+                                </a>
+                                <button>Подробнее об авторе</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__head head-footer">
+                    <div class="head-footer__name">
+                        <div class="head-footer__title footer-title">Быстрый поиск найдет лучший займ онлайн</div>
+                        <div class="footer-right">
+                            <div class="footer-title">Социальные сети:</div>
+                            <div class="footer-right__buttons">
+                                <div class="footer-right__button">
+                                    <a href="#" class="footer-right__link footer-right__link-vk">
+                                        <svg class="footer-right__icon">
+                                            <use href="img/icons/icons.svg#vk"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer-right__button">
+                                    <a href="#" class="footer-right__link footer-right__link-fc">
+                                        <svg class="footer-right__icon">
+                                            <use href="img/icons/icons.svg#fc"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer-right__button">
+                                    <a href="#" class="footer-right__link footer-right__link-ok">
+                                        <svg class="footer-right__icon">
+                                            <use href="img/icons/icons.svg#ok"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer-right__button">
+                                    <a href="#" class="footer-right__link footer-right__link-tg">
+                                        <svg class="footer-right__icon">
+                                            <use href="img/icons/icons.svg#yt"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer-right__button">
+                                    <a href="#" class="footer-right__link footer-right__link-tw">
+                                        <svg class="footer-right__icon">
+                                            <use href="img/icons/icons.svg#tw"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer-right__button">
+                                    <a href="#" class="footer-right__link footer-right__link-yt">
+                                        <svg class="footer-right__icon">
+                                            <use href="img/icons/icons.svg#yt"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head-footer__sublinks">
+                        <a href="#" class="footer-sublink">Карта сайта</a>
+                        <a href="#" class="footer-sublink">Займы в других городах</a>
+                    </div>
+                </div>
+                <div class="footer__body">
+                    <nav class="footer-links">
+                        <a href="#" class="footer-links__item">О сайте</a>
+                        <a href="#" class="footer-links__item">Наши авторы</a>
+                        <a href="#" class="footer-links__item">Вопросы и ответы </a>
+                        <a href="#" class="footer-links__item">Блог</a>
+                        <a href="#" class="footer-links__item">Новости</a>
+                        <a href="#" class="footer-links__item">Контакты</a>
+                    </nav>
+                    <div class="footer-text">
+                        <img src="img/icons/icons.svg#info" alt="!" class="footer-text__icon">
+                        <div class="footer-text__p">
+                            Данное предложение – не обращение подрядчика. Всю подробную информацию следует узнать во
+                            время
+                            непосредственного контакта с кредиторами компании. Редакционный коллектив нашего сайта
+                            представляет своё мнение в статьях с информативными элементами. Компания не является
+                            ответственной
+                            за правдивость и объективность информации на сайте. Сайт не является собственностью
+                            финансовой фирмы и не реализует финансовых услуг. Такого рода услуги имеют право выполнять
+                            организации, разрешенные Центральным Банком РФ. Сайт имеет несколько направленностей,
+                            в том числе представление каталога знаков обслуживания, открыто представленных в реестрах
+                            Федерального института промышленной собственности. Правообладатели имеют исключительное
+                            право на пользование товарными знаками.
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__foot foot-footer">
+                    <div class="foot-footer__text">
+                        <div class="foot-footer__title">©2017 - 2023 Займы-на-карту-онлайн.ru</div>
+                        <a href="#" class="footer-sublink">Сайт Займы на Карту Онлайн ру</a>
+                    </div>
+                    <div class="foot-footer__links">
+
+                        <a href="#" class="footer-sublink">
+                            <svg>
+                                <use href="img/icons/icons.svg#18"></use>
+                            </svg>
+                            Пользовательское соглашение
+                        </a>
+
+                        <a href="#" class="footer-sublink">Политика конфедициальности</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="./js/jquery.min.v1.7.2.js"></script>
+    <script>
+        let accordion = false;
+        function checkAccordion() {
+            if (accordion) {
+                $('.head__accordion').addClass('active');
+            } else {
+                $('.head__accordion').removeClass('active');
+            }
+        }
+        checkAccordion();
+        $('.head__accordion .accordion__item').slideUp();
+        $('.head__accordion button').click(function () {
+            accordion = !accordion;
+            checkAccordion();
+            $('.head__accordion .accordion__item').slideToggle();
+        })
+    </script>
+</body>
+
+</html>
